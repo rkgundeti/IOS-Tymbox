@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A088EC1C1A834FCF007FDE52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A088EC1B1A834FCF007FDE52 /* main.m */; };
+		A088EC1F1A834FCF007FDE52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A088EC1E1A834FCF007FDE52 /* AppDelegate.m */; };
+		A088EC221A834FCF007FDE52 /* TymBox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A088EC201A834FCF007FDE52 /* TymBox.xcdatamodeld */; };
+		A088EC251A834FCF007FDE52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A088EC241A834FCF007FDE52 /* ViewController.m */; };
+		A088EC281A834FCF007FDE52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A088EC261A834FCF007FDE52 /* Main.storyboard */; };
+		A088EC2A1A834FCF007FDE52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A088EC291A834FCF007FDE52 /* Images.xcassets */; };
+		A088EC2D1A834FCF007FDE52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A088EC2B1A834FCF007FDE52 /* LaunchScreen.xib */; };
+		A088EC391A834FCF007FDE52 /* TymBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A088EC381A834FCF007FDE52 /* TymBoxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A088EC331A834FCF007FDE52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A088EC0E1A834FCE007FDE52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A088EC151A834FCE007FDE52;
+			remoteInfo = TymBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A088EC161A834FCE007FDE52 /* TymBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TymBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A088EC1A1A834FCF007FDE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A088EC1B1A834FCF007FDE52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A088EC1D1A834FCF007FDE52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A088EC1E1A834FCF007FDE52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A088EC211A834FCF007FDE52 /* TymBox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TymBox.xcdatamodel; sourceTree = "<group>"; };
+		A088EC231A834FCF007FDE52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A088EC241A834FCF007FDE52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A088EC271A834FCF007FDE52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A088EC291A834FCF007FDE52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A088EC2C1A834FCF007FDE52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A088EC321A834FCF007FDE52 /* TymBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TymBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A088EC371A834FCF007FDE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A088EC381A834FCF007FDE52 /* TymBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TymBoxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A088EC131A834FCE007FDE52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A088EC2F1A834FCF007FDE52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A088EC0D1A834FCE007FDE52 = {
+			isa = PBXGroup;
+			children = (
+				A088EC181A834FCE007FDE52 /* TymBox */,
+				A088EC351A834FCF007FDE52 /* TymBoxTests */,
+				A088EC171A834FCE007FDE52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A088EC171A834FCE007FDE52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A088EC161A834FCE007FDE52 /* TymBox.app */,
+				A088EC321A834FCF007FDE52 /* TymBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A088EC181A834FCE007FDE52 /* TymBox */ = {
+			isa = PBXGroup;
+			children = (
+				A088EC1D1A834FCF007FDE52 /* AppDelegate.h */,
+				A088EC1E1A834FCF007FDE52 /* AppDelegate.m */,
+				A088EC231A834FCF007FDE52 /* ViewController.h */,
+				A088EC241A834FCF007FDE52 /* ViewController.m */,
+				A088EC261A834FCF007FDE52 /* Main.storyboard */,
+				A088EC291A834FCF007FDE52 /* Images.xcassets */,
+				A088EC2B1A834FCF007FDE52 /* LaunchScreen.xib */,
+				A088EC201A834FCF007FDE52 /* TymBox.xcdatamodeld */,
+				A088EC191A834FCE007FDE52 /* Supporting Files */,
+			);
+			path = TymBox;
+			sourceTree = "<group>";
+		};
+		A088EC191A834FCE007FDE52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A088EC1A1A834FCF007FDE52 /* Info.plist */,
+				A088EC1B1A834FCF007FDE52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A088EC351A834FCF007FDE52 /* TymBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				A088EC381A834FCF007FDE52 /* TymBoxTests.m */,
+				A088EC361A834FCF007FDE52 /* Supporting Files */,
+			);
+			path = TymBoxTests;
+			sourceTree = "<group>";
+		};
+		A088EC361A834FCF007FDE52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A088EC371A834FCF007FDE52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A088EC151A834FCE007FDE52 /* TymBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A088EC3C1A834FCF007FDE52 /* Build configuration list for PBXNativeTarget "TymBox" */;
+			buildPhases = (
+				A088EC121A834FCE007FDE52 /* Sources */,
+				A088EC131A834FCE007FDE52 /* Frameworks */,
+				A088EC141A834FCE007FDE52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TymBox;
+			productName = TymBox;
+			productReference = A088EC161A834FCE007FDE52 /* TymBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A088EC311A834FCF007FDE52 /* TymBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A088EC3F1A834FCF007FDE52 /* Build configuration list for PBXNativeTarget "TymBoxTests" */;
+			buildPhases = (
+				A088EC2E1A834FCF007FDE52 /* Sources */,
+				A088EC2F1A834FCF007FDE52 /* Frameworks */,
+				A088EC301A834FCF007FDE52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A088EC341A834FCF007FDE52 /* PBXTargetDependency */,
+			);
+			name = TymBoxTests;
+			productName = TymBoxTests;
+			productReference = A088EC321A834FCF007FDE52 /* TymBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A088EC0E1A834FCE007FDE52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Vertex Offshore";
+				TargetAttributes = {
+					A088EC151A834FCE007FDE52 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A088EC311A834FCF007FDE52 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A088EC151A834FCE007FDE52;
+					};
+				};
+			};
+			buildConfigurationList = A088EC111A834FCE007FDE52 /* Build configuration list for PBXProject "TymBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A088EC0D1A834FCE007FDE52;
+			productRefGroup = A088EC171A834FCE007FDE52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A088EC151A834FCE007FDE52 /* TymBox */,
+				A088EC311A834FCF007FDE52 /* TymBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A088EC141A834FCE007FDE52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A088EC281A834FCF007FDE52 /* Main.storyboard in Resources */,
+				A088EC2D1A834FCF007FDE52 /* LaunchScreen.xib in Resources */,
+				A088EC2A1A834FCF007FDE52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A088EC301A834FCF007FDE52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A088EC121A834FCE007FDE52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A088EC1F1A834FCF007FDE52 /* AppDelegate.m in Sources */,
+				A088EC1C1A834FCF007FDE52 /* main.m in Sources */,
+				A088EC251A834FCF007FDE52 /* ViewController.m in Sources */,
+				A088EC221A834FCF007FDE52 /* TymBox.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A088EC2E1A834FCF007FDE52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A088EC391A834FCF007FDE52 /* TymBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A088EC341A834FCF007FDE52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A088EC151A834FCE007FDE52 /* TymBox */;
+			targetProxy = A088EC331A834FCF007FDE52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A088EC261A834FCF007FDE52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A088EC271A834FCF007FDE52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A088EC2B1A834FCF007FDE52 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A088EC2C1A834FCF007FDE52 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A088EC3A1A834FCF007FDE52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A088EC3B1A834FCF007FDE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A088EC3D1A834FCF007FDE52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TymBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A088EC3E1A834FCF007FDE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TymBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A088EC401A834FCF007FDE52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TymBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TymBox.app/TymBox";
+			};
+			name = Debug;
+		};
+		A088EC411A834FCF007FDE52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TymBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TymBox.app/TymBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A088EC111A834FCE007FDE52 /* Build configuration list for PBXProject "TymBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A088EC3A1A834FCF007FDE52 /* Debug */,
+				A088EC3B1A834FCF007FDE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A088EC3C1A834FCF007FDE52 /* Build configuration list for PBXNativeTarget "TymBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A088EC3D1A834FCF007FDE52 /* Debug */,
+				A088EC3E1A834FCF007FDE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A088EC3F1A834FCF007FDE52 /* Build configuration list for PBXNativeTarget "TymBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A088EC401A834FCF007FDE52 /* Debug */,
+				A088EC411A834FCF007FDE52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A088EC201A834FCF007FDE52 /* TymBox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A088EC211A834FCF007FDE52 /* TymBox.xcdatamodel */,
+			);
+			currentVersion = A088EC211A834FCF007FDE52 /* TymBox.xcdatamodel */;
+			path = TymBox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A088EC0E1A834FCE007FDE52 /* Project object */;
+}
